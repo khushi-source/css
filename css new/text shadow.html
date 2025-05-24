@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin:23px 12px;
+            /*border: 2px solid red;*/
+            background-color: bisque;
+            /*box-shadow: -10px -13px 10px green;*/
+           /* box-shadow: inset 10px 15px green;inside card shadow*/
+            box-shadow: 5px 10px blue, 10px 20px red,20px 20px black;<!--multiple shadow property-->
+        }
+        .card h2{
+            text-shadow: 2px 2px brown;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container"><!--div.card#card-$*3 -will create three div -->
+        <div class="card" id="car-1">
+           <h2> This is css course</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus sapiente ea repudiandae provident eius impedit rerum iste corrupti! Repellat deleniti, quas cumque dolorum hic commodi impedit repellendus similique cum, possimus pariatur quaerat voluptatibus quibusdam tenetur, tempora necessitatibus autem atque sapiente ad unde voluptate suscipit quam. Ab suscipit beatae fugiat.</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2>This is HTML course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, recusandae natus facilis eaque minus et eveniet nihil praesentium incidunt totam quis in tempore quidem tenetur excepturi labore error soluta odit ad. Veniam expedita illo, in soluta quidem sapiente rem fugiat cupiditate veritatis quos adipisci est sed. Vero blanditiis consequuntur sit.</p>
+        </div>
+        <div class="card" id="car-3">
+            <h2>This is web course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab facere repudiandae at ea quod quas fugiat architecto magni officiis nemo. Aut architecto totam dolorum distinctio mollitia magnam harum in quas similique rem? Id reprehenderit deleniti ipsam sint eius sequi deserunt!</p>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*div>p{* p inside div will be highlited but span <p> will not highlighted 
+            background-color: yellow;
+        }*/
+        /* Div+p{only one p which comes next to div will be highlited
+            background-color: blueviolet;
+        }*/
+        /*div~p{ It works p outside of the div
+            background-color: brown;
+        }*/
+       /* div p{
+            background-color: aqua;p inside div will be hilighted
+        }*/
+        div,p{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <p>Before Division 1 paragraph</p>
+    <div>
+        <h2>Inside Division 1 heading</h2>
+        <p>Inside devision 1 paragraph 1</p>
+        <p>inside division 1 paragraph 2</p>
+    </div>
+    <p>After division 1 paragraph 1</p>
+    <h2>After division 1 heading</h2>
+    <p>After division 1 paragraph 2</p>
+    <div>
+        <span><p>Inside Division 2 paragraph</p></span>
+    </div>
+    <p>dksjdksjdksdjskdjsk</p>
+</body>
+</html>
